@@ -211,4 +211,4 @@ def main(page: ft.Page):
 
 # --- 10. Запуск приложения ---
 if __name__ == "__main__":
-    ft.app(target=main, view=ft.AppView.FLET_APP, port=8000)
+    ft.app(target=main)
